@@ -1,0 +1,21 @@
+{
+    "name": "yoyo/redis",
+    "description": "This is redis collection",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yoyoacg",
+            "email": "1031060898@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "redis\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

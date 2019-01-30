@@ -1,0 +1,361 @@
+---------------------------------------------------------------
+[ 2019-01-29T17:42:16+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.526030s] [吞吐率：1.90req/s] [内存消耗：4,867.45kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '7be3ff04-196d-4a47-b78a-75b0c8d78a91',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-29T17:43:05+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.503029s] [吞吐率：1.99req/s] [内存消耗：7,669.19kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c8578b98-7a70-44e5-9e17-c6a93e82851f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-29T17:45:13+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：1.312075s] [吞吐率：0.76req/s] [内存消耗：4,596.53kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '33ed0ce4-513a-422c-8b2f-17f80eb6735c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2019-01-29T17:48:16+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.062003s] [吞吐率：16.13req/s] [内存消耗：3,521.11kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013001s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'd256090e-d9ca-4cd1-83a9-a4ab656955c9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method Jaeger\MultiRequest::removeHead()[D:\php\readbook\vendor\jaeger\querylist\src\Services\MultiRequestService.php:41]
+---------------------------------------------------------------
+[ 2019-01-29T17:48:36+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.042003s] [吞吐率：23.81req/s] [内存消耗：3,520.98kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '15847176-5d3b-4982-a7fd-c2fac0e5fa64',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method Jaeger\MultiRequest::rules()[D:\php\readbook\vendor\jaeger\querylist\src\Services\MultiRequestService.php:41]
+---------------------------------------------------------------
+[ 2019-01-29T17:50:07+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：60.574465s] [吞吐率：0.02req/s] [内存消耗：3,960.99kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'f5175e4f-ee8c-41d5-a80a-f7978a901616',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 60 seconds exceeded[D:\php\readbook\vendor\guzzlehttp\guzzle\src\Handler\CurlMultiHandler.php:101]
+---------------------------------------------------------------
+[ 2019-01-29T17:57:32+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.519030s] [吞吐率：1.93req/s] [内存消耗：4,700.22kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '540201e9-363b-4127-b10c-eae73ca7ca76',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-29T18:03:20+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.037002s] [吞吐率：27.03req/s] [内存消耗：3,042.55kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'c4b01d4b-3a1d-4afc-b82d-18d1a0cf088c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-29T18:04:02+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：0.644037s] [吞吐率：1.55req/s] [内存消耗：5,493.86kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => 'ee666db0-0dd0-4eee-a20d-fd32da1c321a',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-01-29T18:04:36+08:00 ] 127.0.0.1 GET 127.0.0.3/api/book/biquge_task
+[运行时间：64.411684s] [吞吐率：0.02req/s] [内存消耗：7,666.15kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011001s ]
+[ info ] [ LANG ] D:\php\readbook\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'book',
+    2 => 'biquge_task',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '127.0.0.3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.6.0',
+  'postman-token' => '50eeeb31-8358-43b5-8667-6f7a4c198b59',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\php\readbook\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Book->biquge_task[ D:\php\readbook\application\api\controller\Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Input is not proper UTF-8, indicate encoding ! in Entity, line: 9[D:\php\readbook\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [1]Maximum execution time of 60 seconds exceeded[D:\php\readbook\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php:41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=book;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `novel` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/7/7767/7767s.jpg',`author`='路非',`status`='连载',`font_all`='2625410',`new_last`='第2133章 番外：墨莲篇之转世【2】',`desc`='    女主超级强大，冷酷腹黑，回眸一笑，天下风云乱！ 她，长公主府唯一的嫡女，却是举国皆知的废物！当清冷的眸子睁开，她已是21世纪最危险的天才杀手！翻手为云，覆手为雨！当病秧子小姐展露锋芒，惊才绝艳，天下无数男女为之倾倒……他是绝色的暗夜之王，冷血无情，乱世中和她相逢，一曲琴箫合奏，自此天上地下，生死相随。\n',`update_time`='2019-01-29 18:03:36'  WHERE  `id` = 46 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/17/17186/17186s.jpg',`author`='齐佩甲',`status`='连载',`font_all`='998532',`new_last`='803 并非巧合',`desc`='　　韩萧，《星海》骨灰级代练，被来自东（zuo）方(zhe)的神秘力量扔进穿越大军，携带玩家面板变成NPC，回到《星海》公测之前，毅然选择难度最高的机械系。　　战舰列队纵横星海，星辰机甲夭矫如龙，幽能炮毁天灭地，还有无边无际的机械大军，静静待在随身仓库里　　一人，即是军团！　　如果不是玩家出现，本书就是正经严肃的穿越异界题材……　　作为NPC，正常NPC对玩家功能一应俱全……发布任务？好感度调节？传授技能？　　电竞第一美女？只想学技能？告辞，洒家卖身不卖艺　　哎等等，这群玩家我怎么都认识　　得，现实世界也回到了十年前。　　一群：516145206，二群：157302881　　V群：547599250（需全订截图或者4000粉丝值）',`update_time`='2019-01-29 18:03:38'  WHERE  `id` = 61 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/1/1795/1795s.jpg',`author`='第一神',`status`='连载',`font_all`='14049560',`new_last`='第四千四百四十章 黄泉之变',`desc`='    天界第一战神，却因功高震主，遭挚爱背叛，死于洞房之夜。 聂天重生百年之后，再不做殿下之臣！ 破苍穹，逆乾坤，凌万天，踏万界！开启一场与当世天才争锋角逐的逆天之旅。 这一世，我要创造我的世界！这一世，我要成为万古天帝！ 这一世，我要主宰天界神域！ 万古天帝交流群：323877994欢迎加入\n',`update_time`='2019-01-29 18:03:45'  WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/36/36242/36242s.jpg',`author`='洛书',`status`='连载',`font_all`='2381754',`new_last`='第878章召唤英灵',`desc`='    “一代仙尊”洛尘遭人偷袭，重生回到地球。地位普通的他，面对女朋友的鄙视，情敌的嘲讽，父母的悲惨生活，豪门大少的威逼挑衅。他发誓，一定要改变命运的不公，站在这个世界的巅峰，告诉所有人，他洛尘，曾经来过。\n',`update_time`='2019-01-29 18:03:47'  WHERE  `id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/37/37770/37770s.jpg',`author`='丧尸舞',`status`='连载',`font_all`='441337',`new_last`='第五百一十九章 接力晋级',`desc`='　　从踏上跑道的那一天，我才发现，原来，人生有另一种选择！',`update_time`='2019-01-29 18:03:49'  WHERE  `id` = 71 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/34/34991/34991s.jpg',`author`='木有才O',`status`='连载',`font_all`='467902',`new_last`='第719节 修复',`desc`='　　这是一片被‘天道’所影响着的世界。    被‘天道’所选中的人，叫天选者。    天选者们进入一片叫做‘大千界’的奇异世界冒险、成长、试炼。    其中的佼佼者，将获得种种不可思议的力量，拥有掌控世界的能力。    失败者，则一无所有，甚至是坠入深渊，无声无息的死去……    ――――――    新书启航，希望新老朋友们，能够继续支持我，谢谢！',`update_time`='2019-01-29 18:03:53'  WHERE  `id` = 64 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/5/5954/5954s.jpg',`author`='林木儿',`status`='连载',`font_all`='10251035',`new_last`='1383.烟火人间（17）三合一',`desc`='    林雨桐穿梭在各个影视小说作品中，攫取财富的故事。通知：谢支持。作者有话说：喜欢就看，不喜欢就请点×。谢谢！完结文： 同步连载文：\n',`update_time`='2019-01-29 18:03:56'  WHERE  `id` = 60 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/12/12797/12797s.jpg',`author`='台之梦',`status`='连载',`font_all`='2155922',`new_last`='第4825章 我要他对我求而不得（52）',`desc`='　　“恭喜宿主，手撕白莲花+10086，荣获拆CP小能手的称号。”系统。　　“……”顾浅羽。　　“恭喜宿主，打脸心机表+10086，荣获拆CP小勇士的称号。”系统。　　“……”顾浅羽。　　“恭喜宿主，虐渣+10086，荣获拆CP不倒小金枪的称号。”系统。　　“……”顾浅羽。　　系统表示，总有刁民想害我们家浅羽，哼。　　本文是成长流，女主一开始不是吊炸天，实力慢慢强悍的，喜欢看打脸爽的位面，请跳过前三个位面。　　343198780（群号，弟子以上的人可以进来）',`update_time`='2019-01-29 18:04:07'  WHERE  `id` = 90 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/22/22971/22971s.jpg',`author`='九品一局',`status`='连载',`font_all`='2667808',`new_last`='完结了与新书',`desc`='    我刚出生的时候，喝了几天狼奶，我把这头狼当妈，我以为我一辈子见不到她，直到有一个女人过来找我……\n',`update_time`='2019-01-29 18:04:09'  WHERE  `id` = 76 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/18/18542/18542s.jpg',`author`='漂泊的书生',`status`='连载',`font_all`='990810',`new_last`='第1185章 战斗之地，向往之地！',`desc`='　　抛我头颅，撒我热血！　　以吾之身，捍吾手足！　　以吾之血，卫吾荣耀！　　吾之热血，永不熄灭！　　吾之荣耀，永不坠落！　　顶级玩家李枫遭受工作室打压，一怒之下付出巨大代价与工作室解约。　　之后恰逢新的虚拟游戏荒古世代开服，李枫也将以自由人的身份，进入荒古世代。　　这是由一个顶级玩家，在虚拟游戏里掀起的一场腥风血雨！　　读者群：645736287',`update_time`='2019-01-29 18:04:12'  WHERE  `id` = 73 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/34/34461/34461s.jpg',`author`='一路烦花',`status`='连载',`font_all`='2831504',`new_last`='番外5:我最想知道叶祖宗是谁？',`desc`='    她是娱乐圈新晋影后，亦是京城叶家早年丢失的二小姐，所有人都知道叶家大小姐是风海集团的董事长；叶家三少爷是军区少将；而叶家刚找回来的二小姐，却只是娱乐圈的一个花瓶。\n    父亲不爱，母亲不疼。然而没人知道，表面上只是一个花瓶的她，实际上却是令国际大佬都头疼不已的头号特工，军工加起来比她老子还要高！\n    可没想到，一朝失足被人阴了，意外绑定系统完成任务汲取能量。\n    从此她横霸平行空间，改写各种悲催人生，无论在哪个世界，都活得风生水起，却没想到在这期间招惹到一个神秘势力的大佬……\n    等她汲取能量重回现实巅峰，叶家二小姐的身份她可以不要，家族产业可以不接受，只是不好好整整背后阴她的人，她怎么对得起国际大佬给她的首席特工的称号？！\n    待她身份一一揭露，便是凤临天下之时！\n    一个是惊才风逸的神秘少年，一个是名动天下的首席特工，一场强者与强者之间的爱情对决。\n    本文又名《女主她真的苏》，《男主他真的帅》。\n    ――【爽文】【快穿】【1v1】\n',`update_time`='2019-01-29 18:04:15'  WHERE  `id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/23/23315/23315s.jpg',`author`='桩桩',`status`='连载',`font_all`='362269',`new_last`='第80章 后记：花不弃的原型',`desc`='    一对骗婚搭档逃跑时慌不择路摔下悬崖双双穿越。她成了这世的乞丐小丫头。他成了俊颜如花、富可敌国的世家掌权人。命运在十三年后再一次让两人相遇。相见不相知，她苦苦压抑隐藏着秘密和他相处。似曾相识，他在悔恨与心动中挣扎。花不弃的身世一经揭开会引起怎样的风波？前世今生的义兄，飞云堡少主，神秘的莲衣客，谁才是和她不离不弃的同路人？\n',`update_time`='2019-01-29 18:04:16'  WHERE  `id` = 54 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/36/36154/36154s.jpg',`author`='豆喵喵',`status`='连载',`font_all`='2782169',`new_last`='第1145章 还需要九儿哄',`desc`='    “小九儿，为夫饿了~”“饿了就吃。”“好啊，啵~”“你咬我干什么！住手！停下……”某男邪笑，“饿了吃你。”她是华夏圣手君九，医毒双绝。一朝穿越，却成了人人可以羞辱的废物小姐。废物？虐渣打脸她样样拿手！神品丹药随手炼，坐拥神兽，夜睡邪帝！到底谁才是那个废物？\n',`update_time`='2019-01-29 18:04:19'  WHERE  `id` = 59 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/27/27157/27157s.jpg',`author`='百鸟朝风',`status`='连载',`font_all`='1324029',`new_last`='第3206章 再做打算',`desc`='　　【绝宠+爽文】重生回到18岁，苏绵信誓旦旦要用医术造福全人类。“媳妇，我就在你身边，不如你先造福我……”　　重生前，苏绵一意孤行嫁给变态渣男，错过魏军长30年。重生后，苏绵心心念念嫁给魏军长……魏军长这辈子对媳妇就三个字：宠宠宠！',`update_time`='2019-01-29 18:04:24'  WHERE  `id` = 91 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/44/44504/44504s.jpg',`author`='隔壁老王01',`status`='连载',`font_all`='0',`new_last`='第128章：沈凌风',`desc`='　　意外捡到一个登录器，本想怀旧玩一下传奇，没想到却意外链接了未来网络，成功登录了传奇世界虚拟游戏，更是拥有一个BUG般的能力――无限火力。别人还在为了蓝耗太快而发愁，努力嗑药恢复蓝量的时候，许城却在发愁蓝根本就用不完，别人释放一个禁咒流星火雨，蓝瞬间就会消耗殆尽，许城却能够将流星火雨当成普通技能释放。其他帮派无不是人多势众，却有一个帮派独特独行，这个帮派从不招兵买马，因为整个帮派就只有一个人，当沙巴克攻城开始，各大帮派调兵遣将，一个超级法师降临！！！如果你曾玩过传奇，如果你曾热爱过它――那么，请不要错过！',`update_time`='2019-01-29 18:04:25'  WHERE  `id` = 68 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/37/37853/37853s.jpg',`author`='大头文',`status`='连载',`font_all`='730802',`new_last`='第一零三八章 幸运女神在眷顾皇马，意外的开局',`desc`='　　重生回到2004年，董方卓不是要证明他比别人了不起，而是要证明他失去的东西一定要亲手拿回来!　　（前几章节奏飞快，前期铺垫，大家有点耐心看哈，要搞劳工证！）',`update_time`='2019-01-29 18:04:28'  WHERE  `id` = 66 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `novel`  SET `cover`='http://www.biqiuge.com/files/article/image/32/32777/32777s.jpg',`author`='芊霓裳',`status`='连载',`font_all`='3282226',`new_last`='第1565章 我们结婚，我给你生儿子，放了我哥哥',`desc`='    未婚夫背叛，唐沫儿一不小心招惹上了京都豪门贵胄顾墨寒。\n    某天，唐沫儿捏着手里的两道红杠杠，怒，“顾少，你为什么要搞大我的肚子？”\n    顾墨寒将一个小奶娃塞到她怀里，“老婆，乖，那是二胎。”\n    于是唐沫儿奶完了大的奶小的，但是有没有人告诉她为什么还有这位虎视眈眈的顾少也等着她来奶？\n    （1v1，娱乐圈打脸爽文+宠文）\n',`update_time`='2019-01-29 18:04:30'  WHERE  `id` = 42 [ RunTime:0.000000s ]
