@@ -213,15 +213,18 @@ class Book extends Api
             if (mb_strstr($data['content'], '请记住本书首发域名') !== false) {
                 $data['content'] = mb_substr($data['content'], 0, mb_strpos($data['content'], '请记住本书首发域名'));
             }
-            $dir = ROOT_PATH . '/public/book/'.$extend['name'].'/';
-            $save_name = $data['name'].'.txt';
+            $dir = ROOT_PATH . 'public/book/'.$extend['name'].'/';
+            $save_name = md5($data['name']).'.txt';
             if(!is_dir($dir)){
                 mkdir($dir,0755,true);
             }
-            file_put_contents($dir.$save_name,$data['content']);
+            $file = fopen($dir.$save_name,'w+');
+            fwrite($file,$data['content']);
+            fclose($file);
+//            file_put_contents($dir.$save_name,$data['content']);
             $result = [
                 'name'=>$data['name'],
-                'save_path'=>$dir,
+                'save_path'=>$dir.$save_name,
                 'pid'=>$extend['pid'],
                 'main_name'=>$extend['name']
             ];

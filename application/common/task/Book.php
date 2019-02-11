@@ -93,13 +93,11 @@ class Book extends Base
         if ($this->on_start) {
             call_user_func($this->on_start, $this);
         }
-//        if(!is_array($this->scan_url)||count($this->scan_url)==0) return 'Error:请输入起始url....';
-//        $this->add_scan_url($this->scan_url);
-//        $this->do_collect_list();
+        if(!is_array($this->scan_url)||count($this->scan_url)==0) return 'Error:请输入起始url....';
+        $this->add_scan_url($this->scan_url);
+        $this->do_collect_list();
         $arr = $this->do_collect_page();
-       foreach ($arr as $v){
-           var_dump($v);
-       }
+        var_dump($arr);
     }
 
     public function for_one_task(){
@@ -360,7 +358,6 @@ class Book extends Base
      */
     public static function is_win()
     {
-        return true;
         return strtoupper(substr(PHP_OS, 0, 3)) === "WIN";
     }
 
