@@ -93,7 +93,7 @@ class Book extends Base
         if ($this->on_start) {
             call_user_func($this->on_start, $this);
         }
-        if(!is_array($this->scan_url)||count($this->scan_url)==0) return 'Error:请输入起始url....';
+//        if(!is_array($this->scan_url)||count($this->scan_url)==0) return 'Error:请输入起始url....';
         $this->add_scan_url($this->scan_url);
         $this->do_collect_list();
         $arr = $this->do_collect_page();
